@@ -1,0 +1,29 @@
+.app {
+    text-align: center;
+  }
+  
+  .logo {
+    height: 3rem;
+    display: flex;
+  }
+  
+  .header {
+    background: var(--gray-700);
+    min-height: 12.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header>strong {
+    color: var(--blue-dark);
+    font-weight: 900;
+    font-size: 2rem;
+    margin-left: 6px;
+  }
+
+  header>span {
+    color: var(--purple);
+    font-weight: 900;
+    font-size: 2rem;
+  }
